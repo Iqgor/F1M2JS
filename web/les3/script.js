@@ -2,12 +2,13 @@ const myimage = document.getElementById("myimage")
 const mytitle = document.getElementById("mytitle")
 const mytext = document.getElementById("mytext")
 
-let paintings =  ["img/painting0.jpg",
-"img/painting1.jpg",
-"img/painting2.jpg",
-"img/painting3.jpg",
-"img/painting4.jpg",
-"img/painting5.jpg"]
+let paintings =  [
+    "img/painting0.jpg",
+    "img/painting1.jpg",
+    "img/painting2.jpg",
+    "img/painting3.jpg",
+    "img/painting4.jpg",
+    "img/painting5.jpg"]
 
 let titles = [
     "De schilderijen van van Gogh",
