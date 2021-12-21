@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(185, 205, 241);
+}
+
+#koelkast { 
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+section{ 
+    border: 2px solid black;
+    padding: 10px;
+    min-height: 200px;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    margin-bottom: 25px;
+    border: 2px solid white;
+    font-size: 18px;
+    padding: 5px  10px;
+    
+}
+
+button:hover{
+    background-color:rgb(83, 82, 82) ;
+}
+
+.paars{ 
+    color: purple;
+}
+
+.groen{
+    color: green;
+}

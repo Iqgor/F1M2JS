@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 10px;
+}
+body{
+    background-color: aqua;
+}
+
+#container{
+    
+    background-color: white;
+    width: 60%;
+    height: 60%;
+    margin: auto ;
+    padding: 10px;
+    grid-template-columns: 1fr  1fr;
+}
+
+#mytitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    width: 100%;
+    
+}
+
+img{
+    
+}
+
+#text{
+    text-align: right;
+    
+}
