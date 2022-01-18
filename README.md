@@ -6,3 +6,4 @@
 [3. Tentoonstelling](http://33993.hosts1.ma-cloud.nl/F1M2JS/les3)<br/>
 [4. Seizoenen](http://33993.hosts1.ma-cloud.nl/F1M2JS/les4)<br/>
 [5. Silver Bullet Adventure](http://33993.hosts1.ma-cloud.nl/F1M2JS/les5)<br/>
+[5. Silver Bullet Adventure - Directions](http://33993.hosts1.ma-cloud.nl/F1M2JS/les6)<br/>
