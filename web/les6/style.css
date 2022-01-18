@@ -16,3 +16,11 @@ body{
 #myInteraction{
     padding: 10px;
 }
+
+
+
+#mapImage{
+    max-width: 100%;
+    height: auto;
+    margin-top:20px ;
+}
