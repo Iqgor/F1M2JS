@@ -5,10 +5,10 @@ const myInput = document.getElementById("myInput")
 
 
 let directionButtons = {
-    "Noord" : document.getElementById('Noord'),
-    "Oost" : document.getElementById('Oost'),
-    "Zuid" : document.getElementById('Zuid'),
-    "West" : document.getElementById('West')
+    "Noord" : document.getElementById('knopNoord'),
+    "Oost" : document.getElementById('knopOost'),
+    "Zuid" : document.getElementById('knopZuid'),
+    "West" : document.getElementById('knopWest')
 }
 
 let current_index = 0;
@@ -135,12 +135,18 @@ function updateDirections(){
     // zet de diretion key in een aparte variable
     let possible_keys = Object.keys(possible);
 
-    console.log(possible);
-    console.log(possible_keys);
+   
     // zet de keys van de buttons in een aparte variable
+    let buttons_keys = Object.keys(directionButtons);
+    
 
     // Zet eerst alle knoppen uit 
-
+    for (const key of buttons_keys){
+        directionButtons[key].style.visibility = "hidden";
+    }
+    for (const key of possible_keys){
+        directionButtons[key].style.visibility = "visible";
+    } 
     // Zet nu de mogelijke knoppen (directions) aan
 
 }
@@ -159,4 +165,4 @@ function goDirection(richting){
     show(punt_index);
 }
 
-
+show(0)
